@@ -1,3 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@font-face {
+  font-family: reemKulfi;
+  src: url("./assets/fonts/ReemKufi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+}
+@theme {
+  --font-reemKulfi: reemKulfi;
+}
