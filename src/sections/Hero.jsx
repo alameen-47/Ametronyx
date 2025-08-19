@@ -4,15 +4,6 @@ import logo1 from "/src/assets/illustrations/logo.svg";
 export const Hero = () => {
   return (
     <div className="relative flex w-full h-screen bg-black overflow-hidden">
-      {/* <motion.div
-        style={{ backgroundImage: `url(${logo1})` }}
-        className=" bg-contain  h-screen bg-right-top bg-no-repeat"
-        animate={{
-          backgroundSize: ["100%", "105%", "100%"],
-          backgroundPosition: ["right top", "right 10px top 10px", "right top"],
-        }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-      /> */}
       <motion.img
         src={logo1}
         alt="background logo"
@@ -20,7 +11,7 @@ export const Hero = () => {
         animate={{ scale: [1, 1.05, 1], x: [0, 10, 0], y: [0, -10, 0] }}
         transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
       />
-      <div className="p-[10%] flex flex-col  justify-center z-50">
+      <div className="px-[10%] flex flex-col  justify-center z-50">
         <p className="text-white/30 font-reemKulfi tracking-[0.8rem] text-lg md:text-xl">
           AMETRONYX
         </p>

@@ -1,19 +1,19 @@
 import { useState } from "react";
 import "./index.css";
 import "./App.css";
-import { Navbar } from "./components/Navbar.jsx";
-import { Hero } from "./components/Hero.jsx";
-import { About } from "./components/About.jsx";
-import { Contact } from "./components/Contact.jsx";
+import { Navbar } from "./sections/Navbar.jsx";
+import { Hero } from "./sections/Hero.jsx";
+import { About } from "./sections/About.jsx";
+import { Contact } from "./sections/Contact.jsx";
+import { Products } from "./sections/Products.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="bg-black h-screen w-full">
+      <div className="bg-black ">
         <Navbar />
         <Hero />
+        <Products />
         <About />
         <Contact />
       </div>
