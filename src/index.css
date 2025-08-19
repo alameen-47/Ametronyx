@@ -6,6 +6,20 @@
   font-weight: 700;
   font-style: bold;
 }
+@font-face {
+  font-family: edosz;
+  src: url("./assets/fonts/edosz.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: poppins;
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+}
 @theme {
   --font-reemKulfi: reemKulfi;
+  --font-edosz: edosz;
+  --font-poppins: poppins;
 }

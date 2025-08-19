@@ -26,6 +26,9 @@ export default {
         "4xl": ["clamp(2.25rem, 3vw, 2.5rem)", "1.2"], // 36px
         "5xl": ["clamp(3rem, 4vw, 3.5rem)", "1.1"], // 48px
       },
+      animation: {
+        bgPulse: "bgPulse 6s ease-in-out infinite",
+      },
     },
   },
   plugins: [],

@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 export const Navbar = () => {
   const [open, setOpen] = useState();
   return (
-    <div className="flex justify-between  bg-gradient-to-r from-[#FFFFFF]   via-[#808080]  via-35% to-[#000000]  to-70% text-lg w-full p-[1.5%] ">
+    <div className="flex justify-between align-middle   bg-gradient-to-r from-[#FFFFFF]   via-[#808080]  via-35% to-[#000000]  to-70% text-lg w-full p-[1.5%] ">
       <div className="LOGO flex  gap-4 align-middle  items-center">
-        <div className="AX-Logo  w-[35%]">
+        <div className="AX-Logo flex-shrink-0 w-[40%] sm:w-[40%]  lg:w-[300px] xl:w-[350px]">
           <svg
             className="w-full h-auto"
             viewBox="0 0 834 442"
@@ -66,7 +66,7 @@ export const Navbar = () => {
         </h1>
       </div>
       <div className="hidden lg:!flex text-white font-reemKulfi">
-        <ul className="uppercase flex  justify-center align-middle items-center text-center lg:gap-30 sm:gap-20  md:text-lg lg:text-xl ">
+        <ul className="uppercase flex  justify-center align-middle items-center text-center gap-3   lg:gap-10 xl:gap-30 md:text-lg lg:text-xl ">
           <li className="cursor-pointer flex  lg:hidden  text-sm  md:text-md lg:text-lg">
             Home
           </li>
@@ -74,15 +74,15 @@ export const Navbar = () => {
             Products
           </li>
           <li className="cursor-pointer flex  lg:hidden  text-sm  md:text-md lg:text-lg">
-            About Us
+            About
           </li>
           <button className="uppercase cursor-pointer flex  lg:hidden  active:scale-95 transition transform  shadow-2 text-sm  md:text-md lg:text-lg text-center bg-gradient-to-r from-[#148293] via-[#093A41] to-[#000000] rounded-md px-3 py-1">
-            Contact Us
+            Contact
           </button>
         </ul>
       </div>
-      <div className="relative md:top-6 items-center align-middle justify-center">
-        <div className="Hamburger_Menu   flex lg:!hidden justify-center align-middle items-center active:scale-95 transform duration-75 absolute top-4 right-4 z-50">
+      <div className="relative  items-center align-middle justify-center">
+        <div className="Hamburger_Menu   flex lg:!hidden justify-center align-middle items-center active:scale-95 transform duration-75 absolute top-4 right-4 md:top-10 z-80">
           <motion.svg
             onClick={() => setOpen(!open)}
             className="cursor-pointer"
@@ -112,13 +112,13 @@ export const Navbar = () => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "tween", duration: 0.3 }}
-            className=" absolute -top-1 -right-1 z-40 h-screen  p-20 py-30 flex flex-col justify-center items-center bg-white text-black"
+            className=" absolute -top-1 -right-1 z-60 h-screen  p-20 py-30 flex flex-col justify-center items-center bg-white text-black"
           >
             <ul className="uppercase flex flex-col justify-center items-center text-center gap-10  font-reemKulfi">
-              <li className="cursor-pointer text-xl">Home</li>
+              <li className="cursor-pointer text-xl ">Home</li>
               <li className="cursor-pointer  text-xl">Products</li>
-              <li className="cursor-pointer text-xl">About us</li>
-              <li className="cursor-pointer text-xl">Contact US</li>
+              <li className="cursor-pointer text-xl">About</li>
+              <li className="cursor-pointer text-xl">Contact</li>
             </ul>
           </motion.div>
         )}
