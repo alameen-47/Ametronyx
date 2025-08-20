@@ -12,7 +12,7 @@ export const Products = () => {
     <>
       <div className="products-container  ">
         <div className="LEFT w-full flex flex-col lg:flex-row gap-[1rem]">
-          <div className="cursor-pointer hover:bg-white/10 bg-white/5 min-w-[19rem]  rounded-xl p-[1rem] flex gap-[2rem] md:gap-[3rem] align-middle items-center ">
+          <div className="cursor-pointer hover:bg-white/10 bg-white/5 min-w-[10rem]  rounded-xl p-[1rem] flex gap-[2rem] md:gap-[3rem] align-middle items-center ">
             <img
               src={ecommerce}
               className="w-[4rem] md:w-[5rem] l"
@@ -23,7 +23,7 @@ export const Products = () => {
               E-Commerce Sites.
             </h3>
           </div>
-          <div className="cursor-pointer hover:bg-white/10 bg-white/5 min-w-[19rem]  rounded-xl p-[1rem] flex gap-[2rem] md:gap-[3rem] align-middle items-center ">
+          <div className="cursor-pointer hover:bg-white/10 bg-white/5 min-w-[10rem]  rounded-xl p-[1rem] flex gap-[2rem] md:gap-[3rem] align-middle items-center ">
             <img
               src={credi8}
               className="w-[4rem] md:w-[5rem] l"
@@ -34,7 +34,7 @@ export const Products = () => {
               Credit Calls Management App.
             </h3>
           </div>
-          <div className="cursor-pointer hover:bg-white/10 bg-white/5 min-w-[19rem]  rounded-xl p-[1rem] flex gap-[2rem] md:gap-[3rem] align-middle items-center ">
+          <div className="cursor-pointer hover:bg-white/10 bg-white/5 min-w-[10rem]  rounded-xl p-[1rem] flex gap-[2rem] md:gap-[3rem] align-middle items-center ">
             <img
               src={bill47}
               className="w-[4rem] md:w-[5rem] l"
@@ -46,7 +46,7 @@ export const Products = () => {
               Billing Made Simple.
             </h3>
           </div>
-          <div className="cursor-pointer hover:bg-white/10 bg-white/5 min-w-[19rem]  rounded-xl p-[1rem] flex gap-[2rem] md:gap-[3rem] align-middle items-center ">
+          <div className="cursor-pointer hover:bg-white/10 bg-white/5 min-w-[10rem]  rounded-xl p-[1rem] flex gap-[2rem] md:gap-[3rem] align-middle items-center ">
             <img
               src={customApps}
               className="w-[4rem] md:w-[5rem] l"
