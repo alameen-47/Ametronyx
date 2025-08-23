@@ -13,18 +13,18 @@ export const Contact = () => {
           </span>
           <div className="flex flex-col justify-center align-middle items-center gap-2.5">
             <div className="flex flex-col">
-              <label className="text-[.7rem] md:text-lg">Name</label>
+              <label className="text-[.7rem] md:!text-[1rem]">Name</label>
               <input className="border rounded-md md:w-[20rem] bg-white/10" />
             </div>
             <div className="flex flex-col">
-              <label className="text-[.7rem] md:text-lg">Email</label>
+              <label className="text-[.7rem] md:!text-[1rem]">Email</label>
               <input className="border rounded-md md:w-[20rem] bg-white/10" />
             </div>
             <div className="flex flex-col">
-              <label className="text-[.7rem] md:text-lg">Message</label>
-              <input className="border rounded-md md:w-[20rem] h-[5rem] md:h-[10rem] bg-white/10" />
+              <label className="text-[.7rem] md:!text-[1rem]">Message</label>
+              <textarea className="border rounded-md w-[11.5rem] md:!w-[20rem]  h-[5rem] md:h-[10rem] bg-white/10" />
             </div>
-            <button className="text-sm md:text-xl uppercase font-reemKulfi rounded-xl border  border-blue-400 p-[.4rem] md:px-[2rem] tracking-wider bg-gradient-to-r  from-[#00d1fb]     to-[#000000]  hover:bg-white/30 active:scale-95 transform duration-100">
+            <button className="text-sm md:text-xl uppercase font-reemKulfi rounded-xl border  border-blue-400 !p-[.4rem] md:!px-[5rem] tracking-wider bg-gradient-to-r  from-[#00d1fb]     to-[#000000]  hover:bg-white/30 active:scale-95 transform duration-100">
               Submit
             </button>
           </div>
