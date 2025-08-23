@@ -18,7 +18,7 @@ export const Products = () => {
               className="w-[4rem] md:w-[5rem] l"
               alt="E-Commerce"
             />
-            <h3 className="text-white font-poppins min-h-[5rem]  text-md md:text-xl lg:text-2xl flex justify-center align-middle items-center">
+            <h3 className="text-white font-poppins min-h-[5rem]  text-sm md:text-xl lg:text-2xl flex justify-center align-middle items-center">
               Full-Stack ,<br />
               E-Commerce Sites.
             </h3>
@@ -29,7 +29,7 @@ export const Products = () => {
               className="w-[4rem] md:w-[5rem] l"
               alt="E-Commerce"
             />
-            <h3 className="text-white font-poppins min-h-[5rem]  text-md md:text-xl lg:text-2xl flex justify-center align-middle items-center">
+            <h3 className="text-white font-poppins min-h-[5rem]  text-sm md:text-xl lg:text-2xl flex justify-center align-middle items-center">
               CREDI8 ,<br />
               Credit Calls Management App.
             </h3>
@@ -40,7 +40,7 @@ export const Products = () => {
               className="w-[4rem] md:w-[5rem] l"
               alt="E-Commerce"
             />
-            <h3 className="text-white font-poppins min-h-[5rem]  text-md md:text-xl lg:text-2xl flex justify-center align-middle items-center">
+            <h3 className="text-white font-poppins min-h-[5rem]  text-sm md:text-xl lg:text-2xl flex justify-center align-middle items-center">
               Bill47,
               <br />
               Billing Made Simple.
@@ -52,7 +52,7 @@ export const Products = () => {
               className="w-[4rem] md:w-[5rem] l"
               alt="E-Commerce"
             />
-            <h3 className="text-white font-poppins min-h-[5rem]  text-md md:text-xl lg:text-2xl flex justify-center align-middle items-center">
+            <h3 className="text-white font-poppins min-h-[5rem]  text-sm md:text-xl lg:text-2xl flex justify-center align-middle items-center">
               Custom Websites,
               <br />
               Mobile Apps (Android & iOS).
