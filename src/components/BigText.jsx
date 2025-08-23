@@ -6,7 +6,7 @@ const BigText = ({ children, text = "ALIVE" }) => {
   const random = (min, max) => Math.random() * (max - min) + min;
 
   return (
-    <div className="relative h-screen flex items-center justify-center  bg-black">
+    <div className="relative h-fit w-screen flex items-center justify-center  bg-black">
       {/* Background Big Text */}
       <motion.div
         className="absolute  flex flex-col items-center justify-center text-white text-[10rem] md:text-[20rem] font-bold opacity-10 select-none pointer-events-none"

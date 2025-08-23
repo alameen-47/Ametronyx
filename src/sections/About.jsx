@@ -4,7 +4,7 @@ import star from "../assets/icons/neonStar.svg";
 export const About = () => {
   return (
     <div className="   z-40 h-screen w-screen text-white flex justify-center align-middle items-center m-auto">
-      <div className="    rounded-3xl bg-gradient-to-r from-[#00d1fb]   via-[#e402b3]  via-35% to-[#000000]  shadow-2xl shadow-white/30 w-[70%]  flex flex-col justify-center align-middle items-center p-[.1%]">
+      <div className="    rounded-3xl bg-gradient-to-br from-[#00d1fb]   via-[#e402b3]  via-35% to-[#000000]  shadow-2xl shadow-white/30 w-[70%]  flex flex-col justify-center align-middle items-center p-[.1%]">
         <div className="bg-black inset-0 rounded-3xl gap-[1rem] w-full h-full flex  flex-col justify-center align-middle items-center lg:p-[1rem]   py-[2rem] px-[1rem] md:py-0 md:px-0">
           <h1 className="TITLE  font-bold text-[2rem] md:!text-[4.5rem] font-edosz text-white">
             OUR MISSION
