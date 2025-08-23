@@ -89,21 +89,17 @@ export const Products = () => {
             </div>
           </div>
           <img
-            className="min-w-[20rem]  w-[70%] h-[35%]"
+            className="min-w-[20rem]  w-[60%] h-[35%]"
             src={graph1}
             alt="downloads"
           />
           <img
-            className="min-w-[20rem]   w-[70%] h-[35%]"
+            className="min-w-[20rem]   w-[60%] h-[35%]"
             src={graph2}
             alt="downloads"
           />
         </div>
       </div>
-      <></>
-      <></>
-      <></>
-      <></>
       <></>
       <></>
       {/* MAIN DIV FLEX ISSUE FIXED USING CSS ONLY */}

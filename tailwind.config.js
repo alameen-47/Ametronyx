@@ -7,7 +7,7 @@ export default {
         reemKulfi: ["reemKulfi", "sans"],
       },
       screens: {
-        xs: "480px", // optional, if you want extra small
+        xs: "280px", // optional, if you want extra small
         sm: "640px",
         md: "768px",
         lg: "1024px",
@@ -29,7 +29,13 @@ export default {
       animation: {
         bgPulse: "bgPulse 6s ease-in-out infinite",
       },
+      linearBorderGradients: ({ theme }) => ({
+        colors: {
+          "light-blue": [colors.indigo[200], colors.lime[300]],
+        },
+        background: theme("colors"),
+      }),
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-border-gradient-radius")],
 };

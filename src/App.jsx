@@ -7,6 +7,7 @@ import { About } from "./sections/About.jsx";
 import { Contact } from "./sections/Contact.jsx";
 import { Products } from "./sections/Products.jsx";
 import { WhyChooseUs } from "./components/whyChooseUs.jsx";
+import BigText from "./components/BigText.jsx";
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
         <Hero />
         <Products />
         <WhyChooseUs />
-        <About />
-        <Contact />
+        <BigText text="AMETRONYX">
+          <About />
+          <Contact />
+        </BigText>
       </div>
     </>
   );
