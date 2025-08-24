@@ -24,10 +24,10 @@ export const Hero = () => {
         </h3>
         <div className="BUTTONS__ mt-[2rem] flex align-middle items-center gap-[5%] ">
           <button className="animate-pulse   bg-gradient-to-br from-[#F323C5] from-[25%] via-[#1F68A3] via-[64%] to-[#000000] p-[2%] lg:p-[1%] rounded-lg text-white text-xl font-reemKulfi font-semibold p-2 active:scale-95 transform duration-10">
-            PRODUCTS
+            <a href="#products">PRODUCTS</a>
           </button>
           <button className=" border-2 shadow-2xl border-[#0f80dd]  p-[2%] lg:p-[1%] rounded-lg text-white text-xl font-poppins font-semibold p-2 hover:bg-[#0f80dd] hover:text-black font-reemKulfi  active:scale-95 transform duration-100">
-            CONTACT
+            <a href="#contact">CONTACT</a>
           </button>
         </div>
       </div>

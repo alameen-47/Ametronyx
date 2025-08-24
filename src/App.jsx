@@ -18,24 +18,30 @@ function App() {
         <Toaster position="top-center" reverseOrder={false} />
         <Navbar />
         <RevealAnimation>
-          <section className="snap-start flex">
+          <section id="home" className="snap-start flex">
             <Hero />
           </section>
         </RevealAnimation>
         <RevealAnimation>
-          <section className="snap-start flex">
+          <section id="products" className="snap-start flex">
             <Products />
           </section>
         </RevealAnimation>
         <WhyChooseUs />
         <BigText text="AMETRONYX">
           <RevealAnimation>
-            <section className="snap-start flex">
+            <section
+              id="about"
+              className="snap-start flex justify-center align-middle items-center m-auto"
+            >
               <About />
             </section>
           </RevealAnimation>
           <RevealAnimation>
-            <section className="snap-start flex">
+            <section
+              id="contact"
+              className="snap-start flex justify-center align-middle items-center m-auto"
+            >
               <Contact />
             </section>
           </RevealAnimation>

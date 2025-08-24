@@ -68,16 +68,16 @@ export const Navbar = () => {
       <div className="hidden lg:!flex text-white font-reemKulfi">
         <ul className="uppercase flex  justify-center align-middle items-center text-center gap-3   lg:gap-10 xl:gap-30 md:text-lg lg:text-xl ">
           <li className="cursor-pointer flex  lg:hidden  text-sm  md:text-md lg:text-lg">
-            Home
+            <a href="#home">Home</a>
           </li>
           <li className="cursor-pointer flex  lg:hidden  text-sm  md:text-md lg:text-lg">
-            Products
+            <a href="#products">Products</a>
           </li>
           <li className="cursor-pointer flex  lg:hidden  text-sm  md:text-md lg:text-lg">
-            About
+            <a href="#about">About</a>
           </li>
           <button className="uppercase cursor-pointer flex  lg:hidden  active:scale-95 transition transform  shadow-2 text-sm  md:text-md lg:text-lg text-center bg-gradient-to-r from-[#148293] via-[#093A41] to-[#000000] rounded-md px-3 py-1">
-            Contact
+            <a href="#contact">Contact</a>
           </button>
         </ul>
       </div>
@@ -115,10 +115,18 @@ export const Navbar = () => {
             className=" absolute -top-1 -right-1 z-60 h-screen  p-20 py-30 flex flex-col justify-center items-center bg-white text-black"
           >
             <ul className="uppercase flex flex-col justify-center items-center text-center gap-10  font-reemKulfi">
-              <li className="cursor-pointer text-xl ">Home</li>
-              <li className="cursor-pointer  text-xl">Products</li>
-              <li className="cursor-pointer text-xl">About</li>
-              <li className="cursor-pointer text-xl">Contact</li>
+              <li className="cursor-pointer text-xl ">
+                <a href="#home"> Home</a>
+              </li>
+              <li className="cursor-pointer  text-xl">
+                <a href="#products"> Products</a>
+              </li>
+              <li className="cursor-pointer text-xl">
+                <a href="#about"> About</a>
+              </li>
+              <li className="cursor-pointer text-xl">
+                <a href="#contact"> Contact</a>
+              </li>
             </ul>
           </motion.div>
         )}

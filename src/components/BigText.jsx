@@ -5,7 +5,7 @@ const BigText = ({ children, text = "ALIVE", repeat = 10 }) => {
   const letters = text.split("");
 
   return (
-    <div className="relative  flex items-center justify-center bg-black overflow-hidden">
+    <div className="relative  flex items-center justify-center bg-black overflow-clip">
       {/* Background Moving Text */}
       <div className="absolute flex flex-col items-center justify-center -rotate-45">
         {Array.from({ length: repeat }).map((_, row) => (
