@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import logo1 from "/src/assets/illustrations/logo.svg";
+import { RevealAnimation } from "../components/RevealAnimation";
 export const Hero = () => {
   return (
     <div className="relative flex w-full h-screen bg-black overflow-hidden">
@@ -15,13 +16,15 @@ export const Hero = () => {
         <p className="text-white/30 font-reemKulfi tracking-[0.8rem] text-lg md:text-xl">
           AMETRONYX
         </p>
-        <h1 className="TITLE  font-bold font-edosz text-5xl lg:text-7xl  text-white">
-          Innovative Digital Products
-          <br /> for Web & Mobile
-        </h1>
-        <h3 className="text-white/60 font-poppins tracking-wider text-xl lg:text-3xl">
-          Transform your business with <br /> our cutting-edge products
-        </h3>
+        <RevealAnimation>
+          <h1 className="TITLE  font-bold font-edosz text-5xl lg:text-7xl  text-white">
+            Innovative Digital Products
+            <br /> for Web & Mobile
+          </h1>
+          <h3 className="text-white/60 font-poppins tracking-wider text-xl lg:text-3xl">
+            Transform your business with <br /> our cutting-edge products
+          </h3>
+        </RevealAnimation>
         <div className="BUTTONS__ mt-[2rem] flex align-middle items-center gap-[5%] ">
           <button className="animate-pulse   bg-gradient-to-br from-[#F323C5] from-[25%] via-[#1F68A3] via-[64%] to-[#000000] p-[2%] lg:p-[1%] rounded-lg text-white text-xl font-reemKulfi font-semibold p-2 active:scale-95 transform duration-10">
             <a href="#products">PRODUCTS</a>
