@@ -6,7 +6,7 @@ import { Hero } from "./sections/Hero.jsx";
 import { About } from "./sections/About.jsx";
 import { Contact } from "./sections/Contact.jsx";
 import { Products } from "./sections/Products.jsx";
-import { WhyChooseUs } from "./components/whyChooseUs.jsx";
+import { WhyChooseUs } from "./components/WhyChooseUs.jsx";
 import BigText from "./components/BigText.jsx";
 import { Toaster } from "react-hot-toast";
 import { RevealAnimation } from "./components/RevealAnimation.jsx";
