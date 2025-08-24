@@ -5,7 +5,7 @@ import globe from "../assets/icons/globe.svg";
 import rocket from "../assets/icons/rocket.svg";
 export const WhyChooseUs = () => {
   return (
-    <div className="py-[5%] w-full flex">
+    <div className=" w-full flex">
       <div className=" flex justify-center align-middle items-center">
         <img src={sheild} alt="secure" className="w-[20%] animate-pulse " />
         <p className="font-bold text-white/70 text-xs md:text-2xl">
